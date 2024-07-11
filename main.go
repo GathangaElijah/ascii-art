@@ -34,8 +34,10 @@ func main() {
 
 	//Handling the input string
 	var inputString = os.Args[1]
-	if inputString == "\n"{
-		fmt.Println()
+	if inputString == "\\n"{
+		fmt.Print("\n")
+		return
+	} else if inputString == ""{
 		return
 	}
 
