@@ -43,5 +43,5 @@ func main() {
 	// fmt.Println(asciiMap)
 	
 	asciiGraphics := asciimodifier.AsciiGraphics(inputString, asciiMap)
-	fmt.Println(asciiGraphics)
+	fmt.Print(asciiGraphics)
 }
